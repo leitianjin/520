@@ -10,8 +10,12 @@
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
 	<style type="text/css">
 		*{margin: 0;padding: 0;}
-		body{background-color: aliceblue;/*background-size: cover;*/}
-		html body{height: 100%;}
+		body{
+			background-color:  azure;
+		   /*background-size: cover;*/
+		    height: 10240px;
+		}
+		/*html body{height: 100%;}*/
 		.top{
 			/*border: 1px solid red;*/
 		 	width: 800px;
@@ -27,7 +31,7 @@
 		 	width: 734px;
 		 	height: 600px;
 		 /*	background: #666;*/
-		 	margin: 20px auto 0;
+		 	margin: 100px auto 0;
 		 	transform: rotateZ(0deg);
 		 	animation:color 3s linear infinite;
 		 }
@@ -40,7 +44,7 @@
 		 .photo ul li a{
 		 	width: 98px;
 		 	height: 98px;
-		 	background:url(img/520.jpg);
+		 	background:url(img/微信图片_20190520212809.jpg);
 		 	background-position: center;
 		 	background-repeat: no-repeat;
 		 	background-size: cover;
@@ -54,7 +58,7 @@
 		 	
 		 	
 		 }
-		 .photo ul li a:hover{
+	    .photo ul li a:hover{
 		 	transform: rotatey(360deg);	
 		 }
 		.photo ul .one{
@@ -72,38 +76,58 @@
 		/*关键帧*/
 		@keyframes color{
 			from{transform: rotateZ(0deg);}
-			25%{transform: rotateZ(10deg);}
+			25%{transform: rotateZ(0deg);}
 			50%{transform: rotateZ(0deg);}
-			75%{transform: rotateZ(-10deg);}
+			75%{transform: rotateZ(0deg);}
 			to{transform: rotateZ(0deg);}
 		}
 		
 		
 		
 		.content{
-			width: 700px;
-			height: 80px;
+			width: 300px;
+			height: 300px;
 			background: pink;
 		/*	border: 1px solid pink;*/
 			font-family: "楷体";
 			font-size: 20px;
 			font-weight: 500;
-			margin: 20px auto;
+			margin: 100px auto;
 			color:transparent;
-			background: -webkit-linear-gradient(45deg,pink,yellow,green,red,violet);
+			background: -webkit-linear-gradient(45deg,pink,yellow,blue,red,violet);
 			-webkit-background-clip:text;
 			animation:rm 10s linear infinite;
-			
+			text-align: center;
+			line-height: 40px;
 		}
 		@keyframes rm{
 			from{background-position:0, 0;}
 			to{background-position: 1000px,0;}
 		}
+		
+		#love{
+			
+			
+			
+			margin: 0px auto;
+			border: 1px solid cyan;
+			height: 100%;
+			width: 80%;
+			background-color: #FFFFFF;
+			background-image: url(img/024f78f0f736afc3920a084bb819ebc4b745129d.jpg);
+			
+		 	background-repeat: no-repeat;
+			
+		 	
+		 
+		}
+		
+		
 	</style>
 	<body>
-		<!--box-->
-		<div class="top">
-			<marquee behavior="alternate">
+<!--		<!--box-->
+<!--		<div class="top">-->
+		<!--	<marquee behavior="alternate">
 				<pre>
        ,----,.                           
      ,'   ,' |                           
@@ -122,64 +146,75 @@
   `--`-,-'   `---'            `---`      
                                          
                                          </pre>
-</marquee>
-		</div>
+		</marquee>-->
+	<!--	</div>-->
 		<!--xin-->
-		<div class="photo">
-			<ul>
-				<li>
-					<a href="#" class="one"></a>
-					<a href="#"></a>
-					<a href="#" style="background: none;"></a>
-					<a href="#"></a>
-					<a href="#"></a>
-				</li>
-				<li>
-					<a href="#" class="two"></a>
-					<a href="#"></a>
-					<a href="#"></a>
-					<a href="#"></a>
-					<a href="#"></a>
-					<a href="#"></a>
-					<a href="#"></a>
-				</li>
-				<li>
-					<a href="#" class="two"></a>
-					<a href="#"></a>
-					<a href="#"></a>
-					<a href="#"></a>
-					<a href="#"></a>
-					<a href="#"></a>
-					<a href="#"></a>
-				</li>
-				<li>
-					<a href="#" class="one"></a>
-					<a href="#"></a>
-					<a href="#"></a>
-					<a href="#"></a>
-					<a href="#"></a>
-				</li>
-				<li>
-					<a href="#" class="three"></a>
-					<a href="#"></a>
-					<a href="#"></a>
+		<div id="love">
+		
+			<div class="photo">
+				<ul>
+					<li>
+						<a href="#" class="one"></a>
+						<a href="#"></a>
+						<a href="#" style="background: none;"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#" class="two"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#" class="two"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#" class="one"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#" class="three"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+						
+					</li>
+					<li><a href="#" class="four"></a></li>
 					
-				</li>
-				<li><a href="#" class="four"></a></li>
-				
-			</ul>
+				</ul>
+			</div>
+			<div class="content" id="content">			
+			</div>
+			
 		</div>
-		<div class="content" id="content">			
-		</div>
+		
 		<script type="text/javascript">
 			var i=0;
-			var str="现在过的每一天，都是余生中最年轻的一天。";
+			var str="我知道遇见你不容易，错过了会很可惜，我不希望余生都是回忆，我想余生每天都是你，我爱你。";
 			window.onload=function tet(){
 				var div_my =document.getElementById("content");
 			
 				div_my.innerHTML+=str.charAt(i);
 				i++;
-				var time_=setTimeout(tet,100);
+				var time_=setTimeout(tet,400);
+				
+				if(str.charAt(i-1)=="，"){
+					
+					div_my.innerHTML+="<br>"
+				}
+				
 				if(i==str.length){
 					clearTimeout(time_);
 				}
